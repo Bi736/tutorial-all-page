@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+.pic img{
+   
+}
+.pic h3{
+
+}
+.pic h6{
+    
+}
+.post{
+border: 1px solid black;
+margin: 20px 20px;
+background-color:rgba(255, 255, 204,.5) ;
+padding: 10px 10px;
+border-radius: 8px;
+}
+
+.all-post{
+    display: flex;
+    flex-direction: column;
+}
+.photo{
+    display: flex;
+}
+.info {
+    margin: 5px 10px;
+}
+
+
+.post h5 {
+    margin: px;
+    font-size: 17px;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+@keyframes grow{
+    0%{
+        transform: scale(1);
+        color: brown;
+    }
+    25%{
+        transform: scale(1.02);
+        color: coral;
+    }
+    50%{
+        transform: scale(1.04);
+        color: dimgray;
+    }
+    75%{
+        transform: scale(1.06);
+    }
+    100%{
+        transform: scale(1.08);
+        color: goldenrod;
+    }
+}
+
+
+
+.photo{
+
+}
+.photo a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px 5px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin-top: 20px;
+    transition: .5s;
+}
+.photo a:hover{
+    transform: scale(1.03);
+}
+
+.photo {
+   
+    margin-top: 5px;
+}
+i#light {
+    color: red;
+    font-size: 18px;
+}
+
+i.fas.fa-hand-point-right {
+color: mediumorchid;
+padding: 0px 5px;
+
+}
+i.fas.fa-hand-point-left {
+    color: mediumorchid;
+padding: 0px 5px;
+}
+.post h6{
+margin: 0 20px;
+font-weight: 300;
+}
+.post h6{
+margin: 0 20px;
+font-weight: 300;
+}
+
+.info h3{
+font-weight: 500;
+}
+.info h6{
+font-weight: 300;
+}
+
+.all h1{font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 80px;
+    display:inline-block;
+    border-bottom: 4px solid black;
+    padding: 5px;
+    color: green;
+    word-spacing: 13px;
+}
+.all{
+display: block;
+text-align: center;
+}
+
+.lef {
+    flex-basis: 80%;
+    margin-top: 50px;
+}
+
+.righ {
+    flex-basis: 20%;
+    text-align: center;
+    margin-top: 66px;
+}
+
+.tutorial{
+    display: flex;
+}
+
+a#face {
+text-decoration: none;
+padding: 8px 30px;
+color: white;
+background-color:rgb(195, 0, 255) ;
+border-radius: 20px;
+}
+
+
+.three {
+    margin-top: 15px;
+    text-align: center;
+}
+.info h6 {
+    font-weight: 300;
+    display: inline-block;
+}
+.btn {
+    text-align: center;
+    margin-top: 30px;
+}
+.txt {
+    margin-top: 18px;
+    text-align: center;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    line-height: 20px;
+    word-spacing: 2px;
+}
+.txt p{
+   
+}
+
+
+.pic img{
+    width: 387px;
+    height: 181px;
+}
+
+
+
+/*--------right----------*/
+
+.righ{border: 1px solid black;
+    background-color: transparent;
+    box-shadow: 4px 4px 8px  rgba(0,0,0,.7);
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.righ h1{
+font-size: 30px;
+margin-top: 0px;
+padding: 10px;
+border-bottom: 2px solid rgb(195, 0, 255);
+background-color: rgba(194, 128, 128,.4);
+}
+.righ ul{
+
+}
+.righ ul li{list-style: none;
+    margin: 20px;
+
+}
+.list{
+
+}
+.list ul li{
+
+}
+.list ul li h6{
+    display: inline;
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+
+.list {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+i#check {
+    display: inline;
+    font-size: 20px;
+    color: mediumorchid;
+}
+
+.list ul li a{
+    text-decoration: none;
+}
+
+
+.list ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+   background-color: rgb(189, 6, 6);
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+
+.list ul li:hover::after{
+    width: 100%;
+}
+
+
+body{
+    background:linear-gradient(to left,rgba(255, 255, 204,.8) ,rgba(5, 252, 5, 0.2) );
+}
